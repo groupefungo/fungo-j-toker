@@ -1308,7 +1308,8 @@
 
 
   var isApiRequest = function(url) {
-    return (url.match(root.auth.getApiUrl()));
+    // return (url.match(root.auth.getApiUrl()));
+    return true;
   };
 
 
