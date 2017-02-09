@@ -1303,6 +1303,7 @@
 
 
   var isApiRequest = function(url) {
+    console.log('IS_API_REQUEST: TRUE');
     return true;
   };
 
